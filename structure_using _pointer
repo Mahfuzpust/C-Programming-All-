@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+struct mahfuz
+{
+    int id,age;
+
+};
+
+int main()
+{
+    struct mahfuz *ptr,p;
+    ptr=&p;
+
+    printf("Enter your id : ");
+    scanf("%df", &ptr -> id);
+    printf("Enter your age : ");
+    scanf("%d",&ptr -> age);
+
+    printf("ID : %d", ptr -> id);
+    printf("Age : %d",ptr -> age );
+
+}
