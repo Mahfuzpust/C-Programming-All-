@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+struct student
+{
+    char name[10];
+    int id;
+    int age;
+};
+void display(struct student t)
+{
+    printf("%s\n",t.name);
+    printf("%d\n",t.id);
+    printf("%d\n",t.age);
+
+}
+int main()
+{
+    struct student s;
+    gets(s.name);
+    scanf("%d",&s.id);
+    scanf("%d",&s.age);
+
+    display(s);
+}
